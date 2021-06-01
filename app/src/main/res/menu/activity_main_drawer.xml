@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@drawable/ic_movie"
+            android:title="@string/menu_movie" />
+        <item
+            android:id="@+id/nav_tvShow"
+            android:icon="@drawable/ic_tv_show"
+            android:title="@string/menu_tvShow" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite_on"
+            android:title="@string/menu_favorite" />
+    </group>
+</menu>

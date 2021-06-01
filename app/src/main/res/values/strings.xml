@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TheMovie</string>
+    <string name="image_description">Image</string>
+
+    <string name="menu_movie">Movie</string>
+    <string name="menu_tvShow">TV Show</string>
+    <string name="menu_favorite">Favorite</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title">Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="rating">Rating</string>
+    <string name="overview">Overview</string>
+
+    <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="todo">TODO</string>
+    <string name="no_data">Empty data</string>
+    <string name="title_favorite">Favorite</string>
+</resources>
