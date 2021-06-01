@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 title = getString(R.string.app_name)
             }
             R.id.nav_tvShow -> {
-                Toast.makeText(this, "Coming soon", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, "Coming soon", Toast.LENGTH_SHORT).show()
             }
             R.id.nav_favorite -> {
                 val uri = Uri.parse("themovie://favorite")

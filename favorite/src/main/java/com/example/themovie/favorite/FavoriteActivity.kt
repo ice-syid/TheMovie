@@ -26,7 +26,7 @@ class FavoriteActivity : AppCompatActivity() {
 
         val movieAdapter = MovieAdapter()
         movieAdapter.onItemClick = { selectedData ->
-            val intent = Intent(this, DetailMovieActivity::class.java)
+            val intent = Intent(applicationContext, DetailMovieActivity::class.java)
             intent.putExtra(DetailMovieActivity.EXTRA_DATA, selectedData)
             startActivity(intent)
         }
